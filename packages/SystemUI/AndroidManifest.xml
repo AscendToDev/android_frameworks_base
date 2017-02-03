@@ -217,7 +217,7 @@
 
         <!-- started from PhoneWindowManager
              TODO: Should have an android:permission attribute -->
-        <service android:name=".purenexus.screenrecord.TakeScreenrecordService"
+        <service android:name=".ascend.screenrecord.TakeScreenrecordService"
             android:process=":screenrecord"
             android:exported="false" />
 
@@ -239,7 +239,7 @@
                   android:theme="@style/TunerSettings"
                   android:label="@string/statusbar_icons_blacklist"
                   android:process=":tuner"
-                  android:parentActivityName="com.pure.settings.fragments.StatusBarSettings"
+                  android:parentActivityName="com.ascend.settings.fragments.StatusBarSettings"
                   android:exported="true">
         </activity>
 
@@ -260,7 +260,7 @@
                   android:theme="@style/TunerSettings"
                   android:label="@string/navbar_tuner_title"
                   android:process=":tuner"
-                  android:parentActivityName="com.pure.settings.fragments.NavBarSettings"
+                  android:parentActivityName="com.ascend.settings.fragments.NavBarSettings"
                   android:exported="true">
         </activity>
 
@@ -268,7 +268,7 @@
                   android:theme="@style/TunerSettings"
                   android:label="@string/tuner_notification_control"
                   android:process=":tuner"
-                  android:parentActivityName="com.pure.settings.fragments.NotificationMediaSettings"
+                  android:parentActivityName="com.ascend.settings.fragments.NotificationMediaSettings"
                   android:exported="true">
         </activity>
 
