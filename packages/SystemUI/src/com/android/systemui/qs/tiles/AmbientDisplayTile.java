@@ -52,7 +52,7 @@ public class AmbientDisplayTile extends QSTile<QSTile.BooleanState> {
     @Override
     public Intent getLongClickIntent() {
         return new Intent().setComponent(new ComponentName(
-            "com.android.settings", "com.android.settings.Settings$AmbientDisplaySettingsActivity"));
+            "com.android.settings", "com.android.settings.Settings$DisplaySettingsActivity"));
     }
 
     @Override
