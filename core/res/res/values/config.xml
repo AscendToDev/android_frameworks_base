@@ -2165,6 +2165,18 @@
     <!-- Flag specifying whether VT is available on device -->
     <bool name="config_device_vt_available">false</bool>
 
+    <!-- Does the notification LED support multiple colors?
+         Used to decide if the user can change the colors -->
+    <bool name="config_multiColorNotificationLed">true</bool>
+
+    <!-- Is the battery LED intrusive?
+         Used to decide if there should be a disable option -->
+    <bool name="config_intrusiveBatteryLed">true</bool>
+
+    <!-- Does the battery LED support multiple colors?
+         Used to decide if the user can change the colors -->
+    <bool name="config_multiColorBatteryLed">true</bool>
+
     <!-- Flag specifying whether the device will use the "allow_hold_in_ims_call" carrier config
          option.  When false, the device will support holding of IMS calls, regardless of the
          carrier config setting. -->
