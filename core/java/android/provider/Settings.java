@@ -6962,6 +6962,13 @@ public final class Settings {
          * Constant for use in AIRPLANE_MODE_RADIOS to specify NFC radio.
          */
         public static final String RADIO_NFC = "nfc";
+        
+        /**
+         * NFC polling mode configuration key
+         *
+         * @hide
+         */
+        public static final String NFC_POLLING_MODE = "nfc_polling_mode";
 
         /**
          * A comma separated list of radios that need to be disabled when airplane mode
